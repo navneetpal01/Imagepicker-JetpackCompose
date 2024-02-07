@@ -128,6 +128,7 @@ fun SinglePhotoPickerScreen() {
 @Composable
 fun MultiplePhotoPickerScreen() {
 
+    //Uri - Uniform Resource Identifier
     var selectedImageUri by remember{
         mutableStateOf<List<Uri?>>(emptyList())
     }
